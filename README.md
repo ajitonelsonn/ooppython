@@ -116,7 +116,6 @@ def sum_the_list(mylist):
 print(sum_the_list(mylist)) 
 
 ```
-Note: Ba Informasaun liu tan bele hare iha link ne'e : https://www.geeksforgeeks.org/functional-programming-in-python/
 
 
 ## Paradigma programasaun Funcional
