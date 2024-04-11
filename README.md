@@ -44,3 +44,139 @@ print(mimi.idade)  # Sai 2
 print(rex.som())  # Sai "Au Au!"
 print(mimi.som())  # Sai "Miau!"
 ```
+
+
+
+
+
+
+
+# Programming Paradigms in Python
+Referencia : geeksforgeeks [https://www.geeksforgeeks.org/programming-paradigms-in-python/]
+
+Paradigma mos bele koalia hanesan mekanizmu atu rezolve problema ka halo tarefa sira. Paradigma programasaun ne'e hanesan abordajen atu rezolve problema hodi utiliza linguajen programasaun balu ka mos ita bele dehan katak ne'e hanesan metodu atu rezolve problema hodi utiliza ferramentas no teknika sira ne'ebe mak disponivel ba ita ho abordajen balu. Iha linguajen programasaun barak ne'ebe mak hatudu maibé hotu-hotu presiza atu segui estratéjia balu bainhira sira implementa no metodu/estratéjia ne'e mak paradigma sira. Além de variedade sira husi linguajen programasaun, iha moós variedade sira husi paradigma atu satisfaze kada pedidu.
+
+<img src='https://media.geeksforgeeks.org/wp-content/uploads/20200311232159/programmin-paradigms.png'>
+
+Python suporta tipos tolu paradigma programasaun:
+
+1. Paradigma programasaun Orientadu ba Objektu
+2. Paradigma programasaun Orientadu ba Prosesu
+3. Paradigma programasaun Funcional
+
+## Paradigma programasaun Orientadu ba Objektu
+Iha paradigma programasaun orientadu ba objektu, objektu sira mak elementu prinsipál paradigma nian. Objektu sira bele hatudu hanesan instánsia husi klasa ne'ebé iha dadus membru no funsaun métodu. Além disso, estilo orientadu ba objektu halo relasiona entre dadus membru no funsaun métodu sira ne'ebé suporta enkapsulamentu no ho ajuda husi konseitu heransa nian, kodigu bele reutilizável, maibé desvantajen prinsipál paradigma programasaun orientadu ba objektu nian mak bainhira kodigu la hetan hanesan ne'ebé di'ak, entaun programa bele sai monstus.
+
+### Vantajens:
+
+1. Relasaun ho entidade sira iha mundu real
+2. Reutilizasaun kodigu
+3. Abstrasaun ka tulun dadus
+
+### Desvantajens:
+
+1. Proteksaun dadus
+2. Laiha adekuadu ba tipu problema hotu
+3. Velosidade la'ós di'ak
+
+### Ezemplu
+```python
+# class Emp has been defined here 
+class Emp: 
+	def __init__(self, name, age): 
+		self.name = name 
+		self.age = age 
+	
+	def info(self): 
+		print("Hello, % s. You are % s old." % (self.name, self.age)) 
+
+# Objects of class Emp has been 
+# made here		 
+Emps = [Emp("John", 43), 
+	Emp("Hilbert", 16), 
+	Emp("Alice", 30)] 
+
+# Objects of class Emp has been 
+# used here 
+for emp in Emps: 
+	emp.info() 
+
+```
+
+Note: Ba Informasaun liu tan bele hare iha link ne'e : https://www.geeksforgeeks.org/object-oriented-programming-in-python-set-1-class-and-its-members/
+
+## Paradigma programasaun Orientadu ba Prosesu
+
+Iha paradigma programasaun orientadu ba prosesu, série husi etapa komputasionál sei divididu iha módulu sira ne'ebé signifika katak kodigu grupu iha funsaun sira no kodigu sei hetan ezekusaun seriál etapa husi etapa, então bazeia ba komunikasaun kodigu seríal atu instrui komputador ho kada etapa atu realiza tarefa ida mak determinada. Paradigma ida ne'e ajuda iha modularidade kodigu no modularizasaun normalmente hahu husi implementasaun funsionál. Paradigma programasaun ida ne'e ajuda iha organizasaun fasil ba ita nia iten sira ne'ebé relasionadu ho difikuldade no kada fail husi arka hanesan nia kontenedor.
+
+### Vantajens:
+
+1. Programasaun jeral
+2. Reutilizasaun kodigu
+3. Kodigu hanesan origem portatil
+
+### Desvantajens:
+
+1. Proteksaun dadus
+2. Laiha adekuadu ba objektu real iha mundu
+3. Difisil atu hakerek
+
+### Ezemplu
+```python
+# Procedural way of finding sum 
+# of a list 
+
+mylist = [10, 20, 30, 40] 
+
+# modularization is done by 
+# functional approach 
+def sum_the_list(mylist): 
+	res = 0
+	for val in mylist: 
+		res += val 
+	return res 
+
+print(sum_the_list(mylist)) 
+
+```
+Note: Ba Informasaun liu tan bele hare iha link ne'e : https://www.geeksforgeeks.org/functional-programming-in-python/
+
+
+## Paradigma programasaun Funcional
+
+Paradigma programasaun funcional mak paradigma iha ne'ebé hotu-hotu iha estilo funsaun matematika puru. Konhesidu hanesan paradigma deklarativu tanba nia uza deklarasaun liu husi eskriptu. Nia uza funsaun matemátiku no trata kada eskriptu hanesan espressaun funsional hodi prodús valor. Funksaun lambda ka rekursaun mak abordajen báziku ne'ebé uza hodi implementa nia. Paradigma sira ne'ebé maka foku prinsipálmente iha "tanba sa mak rezolve" iha leten "tanba kona-ba resolução". Abilidade atu trata funsaun sira hanesan valor no pasu sira hanesan arguméntu halo kodigu sai hanesan ne'ebé bele loke no kompreende di'ak liu.
+
+### Vantajens:
+
+1. Fasil atu kompriende
+2. Halo debugging no teste sai fasil liu
+3. Hamoris komprensaun no lejibilidade kodigu nian
+
+### Desvantajens:
+
+1. Baixa rendimentu
+2. Hakerek programa mak tarefa ki'ik liu
+3. Lejibilidade kodigu ne'ebé ki'ik
+
+### Ezemplu
+```python
+# Functional way of finding sum of a list 
+import functools 
+
+
+mylist = [11, 22, 33, 44] 
+
+# Recursive Functional approach 
+def sum_the_list(mylist): 
+	
+	if len(mylist) == 1: 
+		return mylist[0] 
+	else: 
+		return mylist[0] + sum_the_list(mylist[1:]) 
+
+# lambda function is used 
+print(functools.reduce(lambda x, y: x + y, mylist)) 
+
+```
+
+Note: Ba Informasaun liu tan bele hare iha link ne'e : https://www.geeksforgeeks.org/functional-programming-in-python/
