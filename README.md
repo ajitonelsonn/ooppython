@@ -58,7 +58,7 @@ Paradigma mos bele koalia hanesan mekanizmu atu rezolve problema ka halo tarefa 
 
 <img src='https://media.geeksforgeeks.org/wp-content/uploads/20200311232159/programmin-paradigms.png'>
 
-Python suporta tipos tolu paradigma programasaun:
+Tuir referencia www.geeksforgeeks.org, Python suporta tipos tolu paradigma programasaun:
 
 1. Paradigma programasaun Orientadu ba Objektu
 2. Paradigma programasaun Orientadu ba Prosesu
