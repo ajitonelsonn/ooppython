@@ -67,17 +67,6 @@ Python suporta tipos tolu paradigma programasaun:
 ## Paradigma programasaun Orientadu ba Objektu
 Iha paradigma programasaun orientadu ba objektu, objektu sira mak elementu prinsipál paradigma nian. Objektu sira bele hatudu hanesan instánsia husi klasa ne'ebé iha dadus membru no funsaun métodu. Além disso, estilo orientadu ba objektu halo relasiona entre dadus membru no funsaun métodu sira ne'ebé suporta enkapsulamentu no ho ajuda husi konseitu heransa nian, kodigu bele reutilizável, maibé desvantajen prinsipál paradigma programasaun orientadu ba objektu nian mak bainhira kodigu la hetan hanesan ne'ebé di'ak, entaun programa bele sai monstus.
 
-### Vantajens:
-
-1. Relasaun ho entidade sira iha mundu real
-2. Reutilizasaun kodigu
-3. Abstrasaun ka tulun dadus
-
-### Desvantajens:
-
-1. Proteksaun dadus
-2. Laiha adekuadu ba tipu problema hotu
-3. Velosidade la'ós di'ak
 
 ### Ezemplu
 ```python
@@ -108,18 +97,6 @@ Note: Ba Informasaun liu tan bele hare iha link ne'e : https://www.geeksforgeeks
 ## Paradigma programasaun Orientadu ba Prosesu
 
 Iha paradigma programasaun orientadu ba prosesu, série husi etapa komputasionál sei divididu iha módulu sira ne'ebé signifika katak kodigu grupu iha funsaun sira no kodigu sei hetan ezekusaun seriál etapa husi etapa, então bazeia ba komunikasaun kodigu seríal atu instrui komputador ho kada etapa atu realiza tarefa ida mak determinada. Paradigma ida ne'e ajuda iha modularidade kodigu no modularizasaun normalmente hahu husi implementasaun funsionál. Paradigma programasaun ida ne'e ajuda iha organizasaun fasil ba ita nia iten sira ne'ebé relasionadu ho difikuldade no kada fail husi arka hanesan nia kontenedor.
-
-### Vantajens:
-
-1. Programasaun jeral
-2. Reutilizasaun kodigu
-3. Kodigu hanesan origem portatil
-
-### Desvantajens:
-
-1. Proteksaun dadus
-2. Laiha adekuadu ba objektu real iha mundu
-3. Difisil atu hakerek
 
 ### Ezemplu
 ```python
@@ -152,16 +129,6 @@ Paradigma programasaun funcional mak paradigma iha ne'ebé hotu-hotu iha estilo 
 2. Halo debugging no teste sai fasil liu
 3. Hamoris komprensaun no lejibilidade kodigu nian
 
-### Desvantajens:
-
-1. Baixa rendimentu
-2. Hakerek programa mak tarefa ki'ik liu
-3. Lejibilidade kodigu ne'ebé ki'ik
-
-### Ezemplu
-```python
-# Functional way of finding sum of a list 
-import functools 
 
 
 mylist = [11, 22, 33, 44] 
