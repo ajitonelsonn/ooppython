@@ -1,5 +1,3 @@
-# Method
-```python
 #Tur fali mai ita tama ba Method
 #Method "mak ida ne'ebe hero bele halo" : meneyerang, bertahan, begerak
 #Method iha interaksi rua ne'e mak hanesan : interaksi antara klient no interaski antara object
@@ -51,5 +49,3 @@ print(hero1.health)
 # Imprime saúde atual husi hero1 no hero2 uza método 'getHealth'
 print(hero1.getHealth())
 print(hero2.getHealth())
-
-```
