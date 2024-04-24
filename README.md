@@ -122,13 +122,8 @@ print(sum_the_list(mylist))
 
 Paradigma programasaun funcional mak paradigma iha ne'ebé hotu-hotu iha estilo funsaun matematika puru. Konhesidu hanesan paradigma deklarativu tanba nia uza deklarasaun liu husi eskriptu. Nia uza funsaun matemátiku no trata kada eskriptu hanesan espressaun funsional hodi prodús valor. Funksaun lambda ka rekursaun mak abordajen báziku ne'ebé uza hodi implementa nia. Paradigma sira ne'ebé maka foku prinsipálmente iha "tanba sa mak rezolve" iha leten "tanba kona-ba resolução". Abilidade atu trata funsaun sira hanesan valor no pasu sira hanesan arguméntu halo kodigu sai hanesan ne'ebé bele loke no kompreende di'ak liu.
 
-### Vantajens:
 
-1. Fasil atu kompriende
-2. Halo debugging no teste sai fasil liu
-3. Hamoris komprensaun no lejibilidade kodigu nian
-
-
+```python
 
 mylist = [11, 22, 33, 44] 
 
